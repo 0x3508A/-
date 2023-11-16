@@ -1,0 +1,114 @@
+# Happy Anime List
+
+- Chobits
+- Tsubasa Chronicle
+- xxxHolic
+- Kobato
+- Kono Subarashii Sekai ni Shukufuku wo!
+    - Season 1 : Kono Subarashii Sekai ni Shukufuku wo!
+    - Season 1 OVA
+    - Kono Subarashii Sekai ni Shukufuku wo! 2
+    - Season 2 OVA
+    - Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu (Movie)
+    - Kono Subarashii Sekai ni Bakuen wo!
+- Kamichu!
+- Flying Witch
+- Kobayashi-san Chi no Maid Dragon
+- Boku wa Tomodachi ga Sukunai
+    - Season 1
+    - Season 2: Boku wa Tomodachi ga Sukunai Next
+    - Boku wa Tomodachi ga Sukunai Episode 0 (Last Episode of Season 1)
+- Working
+    - Season 1
+    - Working Season 2 or Working!!
+    - Season 3: Working!!!
+- Isekai wa Smartphone to Tomo ni
+- Uzaki-chan wa Asobitai!
+- Miyori No Mori (Movie)
+- Denpa Kyoushi
+- Uchi no Maid ga Uzasugiru (ek)
+- Seijo no Maryoku wa Bannou Desu
+- Super Cub
+- Hakumei to Mikochi
+    - Hakumei to Mikochi: Neji to Bed to Irori to Bakuchi
+- Genjitsu Shugi Yuusha no Oukoku Saikenki
+- Ryuu to Sobakasu no Hime
+- Shinigami Bocchan to Kuro Maid
+- Shiroi Suna no Aquatope
+- Yakunara Mug Cup mo
+- Isekai Shokudou
+- Jahy-sama wa Kujikenai!
+- Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei
+- Tsuki to Laika to Nosferatu
+- Komi-san wa, Comyushou desu
+- Taishou Otome Otogibanashi
+- Senpai ga Uzai Kouhai no Hanashi
+- Maoujou de Oyasumi
+- OTOME GAME NO HAMETSU FLAG SHIKA NAI AKUYAKU REIJOU NI TENSEI
+  SHITESHIMATTA
+    - Hamefura, My Next Life as a Villainess: All Routes Lead to Doom!, I
+        Reincarnated into an Otome Game as a Villainess With Only
+        Destruction Flags
+    - OTOME GAME NO HAMETSU FLAG SHIKA NAI AKUYAKU REIJOU NI TENSEI
+        SHITESHIMATTA... X
+- RobiHachi
+- Kai Byoui Ramune
+- Little Witch Academia (TV)
+    - Little Witch Academia: Mahou Shikake no Parade
+- Murenase! Seton Gakuen
+- Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita
+- Monster Musume no Oishasan
+- Karakai Jouzu no Takagi-san
+- Sono Bisque Doll wa Koi wo Suru
+- Shikkakumon no Saikyou Kenja
+- Slow Loop
+- Kenja no Deshi wo Nanoru Kenja
+- Leadale no Daichi nite
+- Jahy-sama wa Kujikenai
+- Doukyonin wa Hiza, Tokidoki, Atama no Ue.
+- Kamisama ni Natta Hi
+- Deaimon
+- Saikin Yatotta Maid ga Ayashii
+- Boku no Kokoro no Yabai Yatsu
+- Edomae Elf
+- Megami no Café Terrace
+- Tonikaku Kawaii
+- Kawaisugi Crisis
+- Isekai One Turn Kill Neesan: Ane Douhan no Isekai Seikatsu Hajimemashita
+- Tensei Kizoku no Isekai Boukenroku: Jichou wo Shiranai Kamigami no Shito
+- Kawaisugi Crisis
+- Jijou wo Shiranai Tenkousei ga Guigui Kuru
+- Kimi wa Houkago Insomnia
+- Dekiru Neko wa Kyou mo Yuuutsu
+- Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou
+- Spy x Family
+    - Spy x Family Part2
+    - Spy x Family Season 2
+    - Spy x Family Movie Code:White
+- Hataraku Maou-sama!
+    - Hataraku Maou-sama!!
+    - Hataraku Maou-sama 3
+- Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu
+- Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi
+- Level 1 dakedo Unique Skill de Saikyou desu
+- Lv1 Maou to One Room Yuusha
+- Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi
+- Suki na Ko ga Megane wo Wasureta
+- Dekiru Neko wa Kyou mo Yuuutsu
+- Uchi no Kaisha no Chiisai Senpai no Hanashi
+- Non Non Biyori
+    - Non Non Biyori OVA
+    - Non Non Biyori Repeat
+    - Non Non Biyori Repeat: Hotaru ga Tanoshinda
+    - Non Non Biyori Movie: Vacation
+    - Non Non Biyori Nonstop
+    - Non Non Biyori Nonstop OVA
+- Sakamoto desu ga?
+
+
+----
+<!-- Footer Begins Here -->
+## Links
+
+- [Back to Misc. Hub](./README.md)
+- [Back to Root Document](../README.md)
