@@ -36,6 +36,7 @@ All the favorite things about Linux Command line go here.
 - **[`openssl`](./openssl.md)** - Security tool that works multi-platform.
 - **[`paperkey`](./paperkey.md)** - Backup GPG keys to paper.
 - **[`rclone`](./rclone.md)** - Remote sync and cloud backup tool.
+- **[`restic`](./restic.md)** - A Modern Backup tool.
 - **[`rsync`](./rsync.md)** - Remote File synchronization tool.
 - **[`sed`](./sed.md)** - Stream EDitor for filtering and text transforming Tool.
 - **[`ssh` / `openssh`](./ssh.md)** - Secure Shell Client & **OpenSSH** Server.

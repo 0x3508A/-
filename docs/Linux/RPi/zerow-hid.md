@@ -2,6 +2,36 @@
 
 ## References
 
+### Composite USB Gadgets on the Raspberry Pi Zero (ORIGINAL)
+
+<https://www.isticktoit.net/?p=1383>
+
+**[PDF](./zerow-hid/isticktoit-net-Composite-USB-Gadgets-RpiZero.pdf)** Copy of the same Page.
+
+Currently the [Firmware for Raspberry Pi](https://github.com/raspberrypi/firmware) is updated, hence that stage is not needed.
+
+However an upgrade might be needed so use the following:
+
+```sh
+sudo rpi-update
+```
+
+Additionally:
+
+- Linux USB Gadget configuration
+    
+    `libcomposite` in the Kernel documentation:
+
+    <https://www.kernel.org/doc/Documentation/usb/gadget_configfs.txt>
+
+    [Local](./zerow-hid/gadget_configfs.txt) Copy.
+
+- USBArmory Wiki Page showing the USB Gadget configuration.
+
+    <https://github.com/ckuethe/usbarmory/wiki/USB-Gadgets>
+
+    [Local copy](./zerow-hid/USB-Armory.sh.txt) of the same.
+
 ### (DEMO) Turn Your Raspberry Pi Zero into a USB Keyboard (HID)
 
 <https://www.youtube.com/watch?v=-tC7nL7rVRE>
@@ -10,7 +40,7 @@ Companion Webpage:
 
 <https://randomnerdtutorials.com/raspberry-pi-zero-usb-keyboard-hid/>
 
-**[PDF](./zero-hid/Turn-Raspberry-Pi-Zero-in-USB-Keyboard_Random-Nerd-Tutorials.pdf)** Copy of the same page.
+**[PDF](./zerow-hid/Turn-Raspberry-Pi-Zero-in-USB-Keyboard_Random-Nerd-Tutorials.pdf)** Copy of the same page.
 
 ### ZeroLife Channel = Raspberry Pi Zero W: Into a Wireless USB Keyboard (HID)
 
@@ -22,14 +52,14 @@ Companion Webpage:
 
     <https://gndtovcc.home.blog/2020/04/17/turn-your-raspberry-pi-zero-into-a-usb-keyboard-hid/>
 
-    - **[PDF](./zero-hid/Turn-Your-Raspberry-Pi-Zero-into-a-USB-Keyboard-HID_gnd-to-vcc.pdf)** Copy
+    - **[PDF](./zerow-hid/Turn-Your-Raspberry-Pi-Zero-into-a-USB-Keyboard-HID_gnd-to-vcc.pdf)** Copy
 - Forum Link for the USB HID Codes
 
     <https://forum.flirc.tv/index.php?%2Ftopic%2F2209-usb-hid-codes-keys-and-modifier-keys-for-flirc_util-record_api-x-y%2F>
 
-    - **[PDF](./zero-hid/USB-HID-codes_Flirc-Forums.pdf)** Copy
+    - **[PDF](./zerow-hid/USB-HID-codes_Flirc-Forums.pdf)** Copy
 - FreeBSD USB HID usage Table <https://www.freebsddiary.org/APC/usb_hid_usages.php>
-    - **[PDF](./zero-hid/FreeBSD-USB-HID-usage-table.pdf)** Copy
+    - **[PDF](./zerow-hid/FreeBSD-USB-HID-usage-table.pdf)** Copy
 
 #### Part 2 Python Typing Script
 
@@ -397,9 +427,9 @@ Output:
 
     <https://forum.flirc.tv/index.php?%2Ftopic%2F2209-usb-hid-codes-keys-and-modifier-keys-for-flirc_util-record_api-x-y%2F>
 
-    - **[PDF](./zero-hid/USB-HID-codes_Flirc-Forums.pdf)** Copy
+    - **[PDF](./zerow-hid/USB-HID-codes_Flirc-Forums.pdf)** Copy
 - FreeBSD USB HID usage Table <https://www.freebsddiary.org/APC/usb_hid_usages.php>
-    - **[PDF](./zero-hid/FreeBSD-USB-HID-usage-table.pdf)** Copy
+    - **[PDF](./zerow-hid/FreeBSD-USB-HID-usage-table.pdf)** Copy
 
 ----
 <!-- Footer Begins Here -->
