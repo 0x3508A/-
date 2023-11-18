@@ -4,6 +4,9 @@ All about Raspberry Pi and related documentation.
 
 ## Topics
 
+- **[Raspberry Pi Model Differences](#raspberry-pi-model-differences)** - Various Models and Processors.
+- **[Raspberry Pi Serial Number](#finding-serial-number-processor-info--model-of-raspberry-pi)** - Easy way to uniquely identify your Pi.
+- **[Flashing OS using `rufus` tool](#flashing-raspberry-pi-os-images-using-rufus)** - Windows new flashing method with `rufus`.
 - **[Pi-Hole DNS](./pi-hole.md)** - Help document for Installation and configuration of local Ad-blocking DNS.
 - **[`mosquitto`](./mosquitto.md)** - Most popular MQTT Broker.
 - **[Remove and Disable Bluetooth](./remove-bluetooth.md)** - Help with getting rid of bluetooth for security.
@@ -16,9 +19,14 @@ All about Raspberry Pi and related documentation.
 - **[`Grafana`](./grafana.md)** - Data visualization frontend - goes well with [`influxdb`](./influxdb.md).
 - **[OctoPrint](./octoprint.md)** - 3D Printer Control Interface.
 - **[SSH Server `sshd`](./ssh-server.md)** - Essential tools for working with Raspberry Pi remotely.
+- **[`fail2ban`](#securing-raspberry-pi-ssh-using-fail2ban-security)** - Secure Pi from Brute force or DDOS on SSH etc.
 - **[Static IP Configuration for Raspberry Pi](./static-ip.md)** - Network configuration.
 - **[USB over IP](./network-usb-hub.md)** - Using Raspberry Pi as a Networked USB Hub.
 - **[Wireless USB Keyboard using Raspberry Pi Zero W](./zerow-hid.md)** - HID Keyboard over WiFi using Raspberry Pi Zero W USB port.
+- **[`ufw`](#ufw-firewall-in-raspberry-pi)** - Firewall for Raspberry Pi.
+- **[Headless Setup of Raspberry Pi](#raspberry-pi-headless-configurations)** - Some times monitor and keyboards are not needed.
+- **[Add Raspberry Pi Package Repository Mirrors](#add-raspberry-pi-mirrors)** - Fix the issues with non-working local mirrors.
+- **[Fix Broken Packages](#fix-a-broken-package-install-in-raspberry-pi)** - Avoid or fix errors during package installs.
 
 ## Others
 
@@ -166,6 +174,8 @@ Links:
 - <https://www.raspberry-pi-geek.de/ausgaben/rpg/2018/08/raspbian-im-read-only-modus/2/>
 
 ## Raspberry Pi Zero-W as USB-Ethernet Device
+
+**Not Working as of 2023-06-06 20:58.13-364**
 
 Reference:
 - <https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/ethernet-gadget>
@@ -452,6 +462,79 @@ Steps:
 References:
 
 - <https://www.declarativesystems.com/2022/06/23/headless-rasperry-pi-setup.html>
+
+### Fixes for Debian 12 `bookworm` Issues
+
+Yes the latest version as of `2023-11-18 Sat 08:36.17`
+does not work even with the 2022 configuration.
+
+This is due to following issue:
+
+<https://github.com/RPi-Distro/raspberrypi-net-mods/issues/11>
+
+The Solution can be found here:
+
+<https://forums.raspberrypi.com/viewtopic.php?t=357562>
+
+The solution suggested is create a file in `rootfs` called : 
+
+`/etc/NetworkManager/system-connections/your-wifi-ssid.nmconnection` 
+
+This needs the `chmod 600` permission and user as `root:root`.
+
+Contents:
+
+```
+[connection]
+id=your-wifi-ssid
+uuid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+type=wifi
+interface-name=wlan0
+
+[wifi]
+mode=infrastructure
+ssid=your-wifi-ssid
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=your-wifi-psk (64 hex digits or plaintext)
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
+```
+Replace the `your-wifi-ssid` with correct SSID info.
+Also `psk=your-wifi-psk (64 hex digits or plaintext)` needs to corrected. Don't worry about spaces or special characters in your password, it would work.
+
+```sh
+cd /etc/NetworkManager/system-connections
+sudo chmod 600 ./your-wifi-ssid.nmconnection
+sudo chown -R root:root ./your-wifi-ssid.nmconnection
+```
+
+You can also copy your own Linux PC `.nmconnection` files:
+
+```sh
+cd "/media/${USER}/rootfs/etc/NetworkManager/system-connections"
+sudo cp /etc/NetworkManager/system-connections/*.nmconnection .
+```
+
+### Change Mount point of `bootfs` in Debian 12 `bookworm`
+
+It usually was the `/boot` directory that contained all
+the `bootfs` files of the Raspberry Pi SD Card.
+
+However as of **Debian 12** this has changed to `/boot/firmware`.
+
+This means that the `rootfs` has the `/boot` directory and the `bootfs` is mounted to `/boot/firmware`.
+
+Must take care of this nonce while adding scripts or files into the `bootfs` that might be needed later for configuration.
 
 ## Add Raspberry Pi Mirrors
 
