@@ -4,6 +4,12 @@ This is a quick and dirty way to keep Forth in my head.
 Inspired by the famous [Forth LearnXinYminutes](https://learnxinyminutes.com/docs/forth/).
 And another resource [Simple Forth](http://www.murphywong.net/hello/simple.htm)
 
+Here is the Link to the `learnforth.fs` file:
+
+<https://learnxinyminutes.com/docs/files/learnforth.fs>
+
+And a [Local](./forth-ready-reckoner/learnforth.fs) Copy.
+
 ## 1. Comments
 
 ```forth
