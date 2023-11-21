@@ -1,6 +1,6 @@
 # `udevadm` USB device management Daemon
 
-`udev` stand of #USB Device Rules. It controls the run-time behavior of `systemd-udevd`, requests kernel events, manages the event queue, and provides simple debugging mechanisms.
+`udev` stand of USB Device Rules. It controls the run-time behavior of `systemd-udevd`, requests kernel events, manages the event queue, and provides simple debugging mechanisms.
 
 
 ## Reload USB Rules or USB connection Rules
@@ -9,7 +9,9 @@
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
-## Check USB Auto Suspend #State
+It's also a good way to reset USB configuration on Linux.
+
+## Check USB Auto Suspend State
 
 ```bash
 for d in /sys/bus/usb/devices/[0-9]* ;\
@@ -21,7 +23,7 @@ for d in /sys/bus/usb/devices/[0-9]* ;\
 
 This would print if the Power Control / Suspend is enabled on various USB devices.
 
-## Disable #auto-suspend on #USB
+## Disable **auto-suspend** on USB
 
 ### Method 1 = Using `tlp` configuration
 
@@ -65,6 +67,10 @@ ATTR{idProduct}=="511b" , ATTRS{idVendor}=="0416", ATTR{power/control}="on"
 
 !!! note
     Permission for `12-micropython.rules` must be `644` and should be created as `root`.
+
+## Collection of USB Device Rules for Linux
+
+This is an **[archive](./udevadm/usb-rules.7z)** of all the device rules that were collected over time.
 
 ----
 <!-- Footer Begins Here -->
