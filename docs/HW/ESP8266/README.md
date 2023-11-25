@@ -13,6 +13,8 @@ All things related to the famous WiFi chip from [Espressif ESP8266](https://www.
 
     Sources : <https://github.com/esphome/esphome>
 
+- **[Wemos D1 mini (R2) Board](./d1-mini.md)** - Most famous and small ESP8266 board.
+
 ### Others
 
 - ESP8266 RF433 Bridge : Design from SonOff RF Bridge
