@@ -20,6 +20,7 @@ All about the Windows operating system and related tools.
 - **[Fast Copy](./fastcopy.md)** - Its like the `rsync` of Windows - Fastest copy and sync program for Windows.
 - [QOwnNotes](./qownnotes.md) - Another QT base note taking software.
 - **[Autodesk Fusion 360](./fusion360.md)** - Windows/Mac Mechanical CAD overlord.
+- **[Fixing File Type Association](./file-type-assoc-sfta.md)** - Windows File extension association issues solved.
 
 ## Windows Keyboard Shortcuts
 
