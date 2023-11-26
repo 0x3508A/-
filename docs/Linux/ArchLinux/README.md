@@ -22,8 +22,9 @@ Multiple attempts but no success yet.
 - [V2](./ArchLinux-install-v2.md)
 - [V3](./ArchLinux-install-v3.md)
 - [W5 Pro Stick PC - Command Line only](./ArchLinux-install-W5-Pro.md)
-- **[Latest attempt in Repository `arch-base`](https://github.com/0x3508A/arch-base)**
+- **[Not working in Repository `arch-base`](https://github.com/0x3508A/arch-base)**
 - **[Desktop IoT](./desktop-iot.md)** - Creating a IoT server using ArchLinux.
+- [V21](./ArchLinux-install-v21.md) - Latest October'2023 attempt.
 
 ## Others
 

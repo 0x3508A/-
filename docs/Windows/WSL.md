@@ -118,6 +118,31 @@ ifconfig eth0|grep inet
 
     <https://www.youtube.com/watch?v=8Ag_VgDd0CQ>
 
+## Flatpak issues on WSL
+
+Flatpak cannot be used normally after the built-in Systemd support is enabled:
+
+<https://github.com/microsoft/WSL/issues/9119>
+
+Steps to run Flatpak on WSL2 assuming a Ubuntu VM:
+
+```sh
+sudo apt install flatpak
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+Installation would need a `sudo`:
+
+```sh
+sudo flatpak install flathub org.mozilla.firefox
+```
+
+Finally to Run the program it would not need any `sudo`:
+
+```sh
+flatpak run org.mozilla.firefox
+```
+
 ----
 <!-- Footer Begins Here -->
 ## Links

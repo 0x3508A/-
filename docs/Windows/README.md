@@ -342,6 +342,18 @@ We need this to work with **git** and here is how `ssh-agent` is configured:
 -
 Initially It would be in *Disabled* state, we need it work every time we start windows so we make it auto start.
 
+## Windows Recovery Partition
+
+Also known as `WinRE`
+
+Here is some more information about it.
+
+<https://superuser.com/a/1514869>
+
+Chris Titus Tech made a Video on the same:
+
+<https://christitus.com/reagentc-windows-recovery-partition/>
+
 ## Windows 11 Installation
 
 ### Bypass TPM 2.0, CPU, RAM, Secure Boot Check
