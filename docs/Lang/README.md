@@ -59,6 +59,10 @@ Of course you would need to have `pandoc` installed first.
 
 On Windows it would become really difficult.
 
+## Fixes for problematic Emacs defaults
+
+<https://idiomdrottning.org/bad-emacs-defaults>
+
 ## Zig Programming Language
 
 Home page : <https://ziglang.org/>

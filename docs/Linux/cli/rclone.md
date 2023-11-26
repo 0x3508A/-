@@ -126,7 +126,19 @@ winget install -e --id WinFsp.WinFsp
 
 	Homepage : <https://winfsp.dev/>
 
+## RcloneBrowser a GUI tool for `rclone`
 
+This is available both for Linux and Windows.
+
+Current Version Website:
+
+<https://kapitainsky.github.io/RcloneBrowser/>
+
+Sources of Current Version:
+
+<https://github.com/kapitainsky/RcloneBrowser>
+
+There are other version to but that one is not actively maintained.
 
 
 ----

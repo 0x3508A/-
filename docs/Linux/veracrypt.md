@@ -14,7 +14,31 @@ Disk Encryption Software based on **True Crypt** but a more secure version.
 
      <https://veracrypt.fr/en/Command%20Line%20Usage.html>
 
-**This also works on Windows and MAC**.
+- How to Install `veracrypt` in Ubuntu like Linux distributions:
+
+     <https://linuxhint.com/install-veracrypt-linux-mint/>
+
+## Compatibility of `veracrypt`
+> 
+> **`veracrypt` also works on Windows and MAC**.
+> and obviously on *Android* and *iPhone*.
+
+### `veracrypt` For Android use : EDS Lite
+
+<https://play.google.com/store/apps/details?id=com.sovworks.edslite>
+
+This needs mandatory `AES256` and `SHA512` for `veracrypt` compatibility.
+
+There is an even more powerful version **Paid** app.
+
+<https://play.google.com/store/apps/details?id=com.sovworks.eds.android>
+
+### `veracrypt` For iPhone use : Disk Decipher
+
+<https://apps.apple.com/au/app/disk-decipher/id516538625>
+
+It also supports most format since its a **Paid** app. Money well spent on this one.
+It can also open files readonly if needed.
 
 ## To Get Help in Shell for `veracrypt`
 
