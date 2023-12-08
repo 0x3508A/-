@@ -1,5 +1,23 @@
 # Proxmox in Laptop
 
+## Proxmox Course
+
+Full Course Video
+
+- <https://www.youtube.com/playlist?list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo>
+
+Basic Intro
+
+- <https://www.youtube.com/watch?v=5axVd19Jris> 
+
+Better Virtualization outside own PC.
+
+- <https://www.youtube.com/playlist?list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo>
+
+Base Tutorial:
+
+- <https://www.youtube.com/watch?v=5axVd19Jris>
+
 ## Inspiration & Reference
 
 It all started with these videos.
