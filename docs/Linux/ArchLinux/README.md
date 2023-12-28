@@ -26,6 +26,18 @@ Multiple attempts but no success yet.
 - **[Desktop IoT](./desktop-iot.md)** - Creating a IoT server using ArchLinux.
 - [V21](./ArchLinux-install-v21.md) - Latest October'2023 attempt.
 
+##### Arch Linux Installation on USB (Verification Needed)
+
+From Arch Wiki <https://wiki.archlinux.org/title/Install_Arch_Linux_on_a_removable_medium>
+
+Better Guide <https://mags.zone/help/arch-usb.html>
+
+Repository for for building Arch Linux Live ISO images. 
+Bootable USB drives creation tools featuring persistent storage and 
+encryption.
+
+<https://github.com/laurent85v/archuseriso>
+
 ## Others
 
 ### `pacman` List all installed packages

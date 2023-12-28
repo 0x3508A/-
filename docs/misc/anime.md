@@ -64,7 +64,6 @@
 - Slow Loop
 - Kenja no Deshi wo Nanoru Kenja
 - Leadale no Daichi nite
-- Jahy-sama wa Kujikenai
 - Doukyonin wa Hiza, Tokidoki, Atama no Ue.
 - Kamisama ni Natta Hi
 - Deaimon
@@ -76,10 +75,8 @@
 - Kawaisugi Crisis
 - Isekai One Turn Kill Neesan: Ane Douhan no Isekai Seikatsu Hajimemashita
 - Tensei Kizoku no Isekai Boukenroku: Jichou wo Shiranai Kamigami no Shito
-- Kawaisugi Crisis
 - Jijou wo Shiranai Tenkousei ga Guigui Kuru
 - Kimi wa Houkago Insomnia
-- Dekiru Neko wa Kyou mo Yuuutsu
 - Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou
 - Spy x Family
     - Spy x Family Part2
@@ -91,8 +88,6 @@
 - Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu
 - Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi
 - Level 1 dakedo Unique Skill de Saikyou desu
-- Lv1 Maou to One Room Yuusha
-- Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi
 - Suki na Ko ga Megane wo Wasureta
 - Dekiru Neko wa Kyou mo Yuuutsu
 - Uchi no Kaisha no Chiisai Senpai no Hanashi
@@ -104,7 +99,7 @@
     - Non Non Biyori Nonstop
     - Non Non Biyori Nonstop OVA
 - Sakamoto desu ga?
-
+- 16bit Sensation: Another Layer
 
 ----
 <!-- Footer Begins Here -->
