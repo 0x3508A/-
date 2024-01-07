@@ -52,6 +52,8 @@ system wide.
 
 Here is how you can go about installing Go and make it work with *Flatpak edition of VSCodium*.
 
+### Installing Latest Golang under Linux
+
 ```sh
 cd ~/Download
 
@@ -66,13 +68,24 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.5.linux-amd64.ta
 
 # This is needed to make it work with VSCodium
 tar -xzf go1.21.5.linux-amd64.tar.gz
+
+# Add Golang into environment
+echo "export GOROOT=/usr/local/go" | tee -a ~/.bashrc
+echo "source \$GOROOT/go.env" | tee -a ~/.bashrc 
 ```
 
 The last line would allow the Go binary to be available in `~/Downloads` directory.
 
+**Warning!** Reboot or Logout-Login to make sure that the
+changes are applied.
+
+### Fix Permission for Downloads directory in `flatseal`
+
 Next we need to add permission to access the Download directory using the **[`flatseal` app](https://flathub.org/apps/com.github.tchx84.Flatseal)**.
 
 [![VSCodium configuration in flatseal app](./vscodium/vscodium-golang-2024-01-07.png)](./vscodium/vscodium-golang-2024-01-07.png)
+
+### Update VSCodium Settings to recognize Golang
 
 Finally we would need to edit the `settings.json` and
 add the following:
