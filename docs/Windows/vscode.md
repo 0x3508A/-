@@ -1,5 +1,9 @@
 # Visual Studio Code : VSCode
 
+> Microsoft's most popular code editor.
+
+There is an open source alternative **[VSCodium](../Linux/vscodium.md)** for this.
+
 ## Workspace Trust settings
 
 - `CTRL + SHIFT + P` Open *Command Palette*

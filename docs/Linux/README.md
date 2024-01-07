@@ -48,7 +48,7 @@ Everything related to Linux goes here.
 - **[`postgreSQL`](./postgresql.md)** - Postgres SQL Database
 - **[`pandoc`](./pandoc.md)** - Universal Document Converter
 - **[LVM](./lvm.md)** - Linux Logical Volume Manager.
-
+- **[VSCodium](./vscodium.md)** - Open Source alternative for the famous [VSCode](../Windows/vscode.md) editor.
 
 
 ## Others
